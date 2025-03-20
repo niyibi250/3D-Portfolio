@@ -213,7 +213,7 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "ATLP Pulse Mobile Application",
+      name: "Pulse Mobile App",
       description:
         "Pulse is a platform designed to handle ratings for trainees in companies with various programs. The mobile version is currently under development, using React Native to create cross-platform mobile applications that prioritize speed, security, and a seamless user experience.",
       tags: [
