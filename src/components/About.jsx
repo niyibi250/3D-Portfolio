@@ -48,10 +48,12 @@ const About = () => {
       <h2 className={styles.heroHeadText}>Overview.</h2>
     </motion.div>
     <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-      I'm a skilled software developer with experience in JavaScript, Python, and C++,
-      and expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner
-      and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!
+      Hi, I’m a full-stack and mobile developer with a strong foundation 
+      in creating dynamic web applications and seamless mobile experiences. 
+      I specialize in both frontend and backend development, 
+      using technologies like JavaScript, Python, React, Node.js, and more. 
+      I’m passionate about building efficient, scalable, and user-friendly solutions. 
+      Let's collaborate to bring your ideas to life!
     </motion.p>
     <div className="mt-20 flex flex-wrap gap-10">
       {services.map((service, index) => (

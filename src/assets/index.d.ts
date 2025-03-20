@@ -16,6 +16,8 @@ import figma from "./figma.png";
 import docker from "./docker.png";
 import meta from "./meta.png";
 import starbucks from "./starbucks.png";
+import andela from "./andela.png";
+import free from "./free.png";
 import tesla from "./tesla.png";
 import shopify from "./shopify.png";
 import carrent from "./carrent.png";
@@ -48,4 +50,6 @@ export {
   jobit,
   tripguide,
   threejs,
+  andela,
+  free
 };

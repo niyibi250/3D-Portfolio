@@ -24,6 +24,8 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import andela from "./company/andela.png";
+import free from "./company/free.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -59,4 +61,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  andela,
+  free
 };
