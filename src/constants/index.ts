@@ -194,7 +194,7 @@ import {
     {
       name: "Pulse Web",
       description:
-        "Pulse is a platform designed to handle ratings for companies in the Ed-tech industry, with its first paying customer being Andela. The web part of the platform is under development using modern technologies that prioritize speed and security, with ReactJS used for building the frontend.",
+        "Pulse is a platform designed to handle ratings for companies in the Ed-tech industry, with its first paying customer being Andela. The web part of the platform is under development using modern technologies that prioritize speed and security, with ReactJS and Tailwind CSS used for building the frontend.",
       tags: [
         {
           name: "React",
