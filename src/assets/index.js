@@ -30,8 +30,8 @@ import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import ecomm from "./ecomm.png";
-import web_andel from "./web_andel.png";
-import app_andel from "./app_andel.png";
+import web_ from "./web_.png";
+import app_ from "./app_.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -66,7 +66,7 @@ export {
   tripguide,
   andela,
   free,
-  web_andel,
-  app_andel,
+  web_,
+  app_,
   ecomm,
 };

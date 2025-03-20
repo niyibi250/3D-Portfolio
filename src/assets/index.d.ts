@@ -22,8 +22,8 @@ import tesla from "./tesla.png";
 import shopify from "./shopify.png";
 import carrent from "./carrent.png";
 import ecomm from "./ecomm.png";
-import web_andel from "./web_andel.png";
-import app_andel from "./app_andel.png";
+import web from "./web_.png";
+import app from "./app_.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import threejs from "./threejs.png";
@@ -55,7 +55,7 @@ export {
   threejs,
   andela,
   free,
-  web_andel,
+  web_,
   ecomm,
-  app_andel
+  app_
 };

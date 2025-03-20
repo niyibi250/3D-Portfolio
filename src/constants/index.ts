@@ -19,9 +19,9 @@ import {
     threejs,
     andela,
     free,
-    web_andel,
+    web_,
     ecomm,
-    app_andel
+    app_
   } from "../assets";
   
   export const navLinks = [
@@ -231,7 +231,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: web_andel,
+      image: web_,
       source_code_link: "https://github.com/",
     },
     {
@@ -252,7 +252,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: app_andel,
+      image: app_,
       source_code_link: "https://github.com/",
     },
   ];
