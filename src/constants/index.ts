@@ -15,7 +15,6 @@ import {
     git,
     figma,
     docker,
-    tripguide,
     threejs,
     andela,
     free,
@@ -172,30 +171,9 @@ import {
   
   const projects = [
     {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars. The app also offers curated recommendations for popular destinations, helping travelers plan their entire trip from one place.",
-      tags: [
-        {
-          name: "Next.js",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
-    {
       name: "E-Commerce Platform",
       description:
-        "A feature-rich e-commerce web application that allows users to browse products, manage their shopping cart, and complete secure transactions. The platform includes an admin dashboard to manage inventory, orders, and customer data, built using modern web technologies for a smooth user experience.",
+        "A feature-rich e-commerce web application that allows users to browse products, manage their shopping cart, and complete secure transactions. The platform includes admin dashboard to manage inventory, orders and customer data, built using modern technologies for smooth user experience.",
       tags: [
         {
           name: "React",
