@@ -15,12 +15,13 @@ import {
     git,
     figma,
     docker,
-    carrent,
-    jobit,
     tripguide,
     threejs,
     andela,
-    free
+    free,
+    web_andel,
+    ecomm,
+    app_andel
   } from "../assets";
   
   export const navLinks = [
@@ -52,7 +53,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "UI/UX Designer",
       icon: creator,
     },
   ];
@@ -171,66 +172,87 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
       name: "Trip Guide",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars. The app also offers curated recommendations for popular destinations, helping travelers plan their entire trip from one place.",
       tags: [
         {
-          name: "nextjs",
+          name: "Next.js",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Supabase",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "E-Commerce Platform",
+      description:
+        "A feature-rich e-commerce web application that allows users to browse products, manage their shopping cart, and complete secure transactions. The platform includes an admin dashboard to manage inventory, orders, and customer data, built using modern web technologies for a smooth user experience.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ecomm,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Pulse Web",
+      description:
+        "Pulse is a platform designed to handle ratings for companies in the Ed-tech industry, with its first paying customer being Andela. The web part of the platform is under development using modern technologies that prioritize speed and security, with ReactJS used for building the frontend.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Web Development",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: web_andel,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "ATLP Pulse Mobile Application",
+      description:
+        "Pulse is a platform designed to handle ratings for trainees in companies with various programs. The mobile version is currently under development, using React Native to create cross-platform mobile applications that prioritize speed, security, and a seamless user experience.",
+      tags: [
+        {
+          name: "React Native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Mobile Development",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Cross-Platform",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: app_andel,
       source_code_link: "https://github.com/",
     },
   ];
